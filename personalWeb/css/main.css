@@ -1,0 +1,141 @@
+@charset "utf-8";
+/* CSS Document */
+
+     <!--
+        body {
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	color: #999;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 12px; 
+	background-color:#CCCCCC;
+        }
+	
+	
+#container{margin:auto; padding:0; width:960px; border-color:#6699CC; boder:2px; height:auto; background-color:#FFFFFF;}
+#header{ height:100px;}
+.menu4
+{
+	height:59px;
+	font-size:18px;
+	line-height:18px;
+	margin-bottom:20px;
+	margin-left:240px
+	
+}
+.menu4 a:link,.menu4 a:visited
+{
+	color:#fff;
+	height:31px;
+	text-decoration:none;
+	background: url(../image/bg4_btn.png)  no-repeat left -102px;	
+	background-color:#f753c7;
+	padding:12px 14px 0px 14px;	
+	margin-top:8px;
+	text-align:center;
+}
+.menu4 a:hover
+{
+	color:#af2a88;
+	background:url(../image/bg4_btn.png)   no-repeat left -51px;
+	width:102px;
+	height:51px;
+	padding:20px 10px 0px 0px;
+}
+.menu4 a:active
+{
+	background-position:left top;
+	width:122px;
+	height:38px;
+	padding:13px 0px 0px 0px;
+	margin:0px;
+}
+		.menu4SD
+{
+	height:59px;
+	font-size:18px;
+	line-height:18px;
+	margin-bottom:20px;
+}
+.menu4 a:link,.menu4 a:visited
+{
+	color:#fff;
+	height:31px;
+	text-decoration:none;
+	background: url(../image/patents.png)
+	 no-repeat left -102px;
+	background-color:#99ccff;
+	padding:12px 14px 0px 14px;
+	margin-top:8px;
+	text-align:center;
+}
+.menu4 a:hover
+{
+	color:#af2a88;
+	background:url url(../image/patents-visit.png) no-repeat left -51px;
+	width:102px;
+	height:51px;
+	padding:20px 10px 0px 0px;
+}
+#menu{margin-right:0px; width:750px}
+.menu4 a:active
+{
+	background-position:left top;
+	width:132px;
+	height:38px;
+	padding:13px 0px 0px 0px;
+	margin:0px;
+}
+#left{
+	float:left;
+	width:210px;
+	height: 400px;
+	background-color: #BCE75B;
+	margin-left: 10px;
+	background-image: url(../image/patents.png);
+	background-repeat: repeat-y;
+}
+#right{
+	width:620px;
+	margin-left:240px;
+	color: #399;
+	font: Helvetica,Arial,sans-serif;
+	font-size: 13px;
+}
+.glossymenu{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 210px;
+	text-align:right;
+	font-size: 15px;
+}
+
+.glossymenu li a{
+background: white url(image/patents.png) repeat-x bottom left;
+font: bold 14px "Lucida Grande", "Trebuchet MS", Verdana, Helvetica, sans-serif;
+color: white;
+display: block;
+width: 200px;
+padding: 3px 5px 3px 0px;
+padding-left: 5px;
+text-decoration: none;
+
+}
+
+
+* html .glossymenu li a{ /*IE only. Actual menu width minus left padding of A element (10px) */
+width: 160px;
+}
+
+.glossymenu li a:visited, .glossymenu li a:active{
+color: white;
+}
+
+.glossymenu li a:hover{
+background-image: url(image/patents-visit.png);
+}
+.class{width:500px;}
+#wellpro{
+	margin-left:90px;
+}

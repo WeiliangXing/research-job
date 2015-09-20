@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<thumbnails>
+	
+	<config 
+		auto_align="true"
+		enable_fullscreen="true"
+		folder="thumbnails/"
+		tween_duration="0.4"
+		tn_border_size="0"
+		tn_border_color="0xFFFFFF"
+		tn_alpha="true"
+		x_spacing="100"
+		y_spacing="0"
+		side_tn_count="4">
+	</config>
+
+	<thumbnail> 
+		<filename>250x250_299_power.jpg</filename> 
+		<url>labwork_wang.html</url> 
+		<target>_self</target> 
+	</thumbnail> 
+	
+	<thumbnail> 
+		<filename>250x250_295_floral_beige.jpg</filename> 
+		<url>labwork_entri_patent.html</url> 
+		<target>_parent</target> 
+	</thumbnail> 		
+	
+		<thumbnail> 
+		<filename>250x250_286_blue_candy.jpg</filename> 
+		<url>labwork_entri_review.html</url> 
+		<target>_blank</target> 
+	</thumbnail> 
+	
+	<thumbnail> 
+		<filename>250x250_285_pinky.jpg</filename> 
+		<url>labwork_igem1.html</url> 
+		<target>_self</target> 
+	</thumbnail> 
+	
+		
+	<thumbnail> 
+		<filename>250x250_272_christmas_night.jpg</filename> 		
+		<url>labwork_balaji_fitting.html</url> 
+		<target>_blank</target> 
+	</thumbnail> 
+		<thumbnail> 
+		<filename>250x250_293_liquid.jpg</filename> 
+		<url>labwork_balaji_simulation.html</url> 
+		<target>_self</target> 
+	</thumbnail> 
+	<thumbnail> 
+		<filename>250x250_268_floral_design.jpg</filename> 
+		<url>patents_combin.html</url> 
+		<target>_self</target> 
+	</thumbnail> 
+	<thumbnail> 
+		<filename>    250x250_246_club.jpg</filename> 
+		<url>labwork_feng.html</url> 
+		<target>_self</target> 
+	</thumbnail> 
+        <thumbnail> 
+		<filename>   250x250_251_clean_blog.jpg</filename> 
+		<url>labwork_balaji_compare.html</url> 
+		<target>_self</target> 
+	</thumbnail> 
+	    <thumbnail> 
+		<filename>  250x250_232_sound_box.jpg</filename> 
+		<url>labwork_igem3.html</url> 
+		<target>_self</target> 
+	</thumbnail> 
+         <thumbnail> 
+		<filename>  250x250_237_extreme.jpg</filename> 
+		<url>interest.html</url> 
+		<target>_self</target> 
+	</thumbnail> 
+</thumbnails>

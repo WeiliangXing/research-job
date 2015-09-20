@@ -1,0 +1,148 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>	Project 1 of IGEM</title>
+        <meta name="Keywords" content="weiliang xing" />
+        <link  href="css/navigation.css" rel="stylesheet" type="text/css" />
+        <link  href="css/anylinkcssmenu.css" rel="stylesheet" type="text/css" />
+        <link href="css/main_all.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div id=container>
+   <div id=header>
+    <img src="image/000142.jpg" />
+   </div>
+
+   <div class="menu4">
+   <a href="index.html">Home</a>
+    <a href="labwork.html">Lab Work</a>
+    <a href="patents_wellpro.html">Patents</a>
+    <a href="Technique.html">Technique</a>
+    <a href="interest.html">Interest</a>
+    <a href="Resume.html">Resume</a>
+    <a href="contact.html">Contact</a> 
+    
+    <del></del>
+ 
+  </div>
+  <div class="glossymenu">
+    
+    <a class="menu" href="labwork_balaji.html">Pro.Balaji's lab</a>
+    <a class="menuitem submenuheader">The contrast agents(CAs) in MRI</a>
+    <div class="submenu">
+ <ul>
+ <li><a href="labwork_balaji_compare.html">Introduction about CAs and relaxivity:</a>
+</li>
+<li><a href="labwork_balaji_simulation.html">Simulation tool for SBM theory by java:</a></li>
+<li><a href="labwork_balaji_fitting.html">Fitting tool for SBM theory by python:</a>
+</li>
+  </ul>
+  </div>
+  <a class="menuitem header"  href="labwork_balaji_enzymatic.html"> Enzymatic degradation of Nanoparticles</a>
+<a class="menuitem header" href="labwork_balaji_lab network.html"> Lab network building</a>
+  <a class="menu" href="labwork_entri.html"> Pro. Entcheva's Lab </a>
+
+
+  <a class="menuitem header"  href="labwork_entri_patent.html">Patent application</a>
+    <a class="menuitem header"  href="labwork_entri_review.html">Review of Optogenetics</a>
+    <a class="menuitem header"  href="labwork_entri_construction.html">The construction of AAV vector</a></li>
+    <a class="menuitem header"  href="labwork_entri_strategy.html">The strategy discussion on cardiac marker in vivo study </a> 
+ 
+<a class="menu" href="labwork_igem.html">IGEM COMPETETION </a>
+ 
+  <a class="menu_selected"  href="labwork_igem1.html">Project I: An Indefinite Genetic Counter</a></li>
+    <a class="menuitem header" href="labwork_igem2.html">Project II: Lignin Terminator</a></li>
+   <a class="menuitem header" href="labwork_igem3.html">Project III: Y-hunter </a>
+<a class="menu" href="labwork_feng.html">Pro. Feng's Lab</a> 
+<a class="menu" href="labwork_wang.html">Pro.Wang's Lab</a>
+<a class="menu" href="labwork_intership.html">Intership</a>
+
+  </div>
+  <div id="right">
+    <div id="title"><a name="home"><strong>IGEM</strong><br />
+     <strong>2010-2011 International Genetically Engineered Machine Competition,U.S.</strong></a>
+    </div>
+     <hr />
+  <div id="maincontent">
+    <div id="brief"></div>
+    <div id="brief"></div>
+    <div id="brief">      <strong><h3><a name="project1">Project I -- An Indefinite Genetic Counter (Independent Design) – in the testing and simulation stage</a></h3></strong>
+  
+<p><strong>Abstract:</strong> This indefinite counter uses recombinases, such as Cre and flpe, which can invert DNA between two oppositely oriented cognate recognition sites, such as loxP and FRT sites, respectively. In my counter design, recombinase gene (rec) Cre is downstream and the rec Flpe is upstream of a promoter (PBAD), and they are fused to an ssrA tag respectively that causes rapid protein degradation, and followed by a transcriptional terminator (Term) with gfp and rfp to show the consequence of the process. The promoter PBAD is placed between forward and reverse recombinase recognition sites (lox Pf and lox Pr), and then, this DNA sequence is placed between forward and reverse recombinase recognition sites (FRTf and FRTr), forming a definite counting unit. Upon expression of the rec Cre by an upstream promoter, the entire counter is inverted between the inner recognition sites. Then, gfp was expressed in a limited amount. When the promoter is inverted, further expression of rec Cre protein and gfp ceases, and DNA orientation is fixed. In the second run, such steps are repeated, but at this time recombinase flpe and rfp will express instead of the cre and gfp. When the flpe expresses, the promoter is inverted again, showed in the  figure as below.</p>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="image/ig2.jpg" width="614" height="360" alt="Fig.3"  align="left"/>
+  <br />
+  <p>In addition, I think one must be pointed out is that some unrelated sequences must be added between two inner recombinase recognition sites in order to reduce mutual impact of the recombinase recognition.</p>
+  <p>In the design, I placed them mentioned above on pBAC plasmids that are maintained as single copy episomes. These circuits utilize PBAD, so that pulses of arabinose constitute inputs to the circuit</p>
+ </div>
+    <div class="homeicon"><img  src="image/iconhome_03_03_03.png"><a href="#home">Top of page</a></div>
+  <div id="brief">
+ <strong>Differences and creative points: </strong>
+
+  <p>Admittedly, it looks like the design in the DIC 3-counter, especially the use of the similar basic components. However, there are many differences between them.
+  </p>
+  <p> First, the aim is different. In this circuit, the counter could count indefinitely. It is like a genetic oscillation. However, as I know, many oscillations are based on the principle of reverse feedback while it seems that few would use recombinases to realize such functions. I think it may provide new orientation.</p>
+   <p> Secondly, the design is simple and feasible theoretically. By making use of one promoter, two recombinase sequences and ssrA tags, it may count more numbers before leakage phenomenon becomes notable. If controlled appropriately, ssrA tags will accelerate the degradation of the recombinases in order to make the counter invert continually.</p>
+  <p> Moreover, it provides sequential control for the more complex biological process. Just as the clock in the Single Chip Microcomputer, this design, if modified accurately, would provide such ‘clock’ in the future biocomputer. To the biomedical reaction, the definition of reaction process would be taken into consideration carefully. In my opinion, it would be better to be measured by “step”—namely, the inversion of the genetic counter—than the amount of the outcome of the product. It would be more accurate and controllable.</p>
+  </div>
+  <div id="brief"></div>
+  <div id="brief"></div>
+</div>
+</div>
+<div id="footer">	
+    <br>
+    <hr />
+		<div id="affisliate">
+			<a href="http://www.linkedin.com/profile/view?id=145037444&trk=tab_pro">Linkedin</a>             
+            <a href="http://www.facebook.com/profile.php?id=100002887686252">Facebook</a>
+            <a href="http://www.bme.sunysb.edu">BME @ Stony Brook</a>
+		</div> <!-- affiliate -->	
+
+		<p id="copyright">&copy; 2012 Web Design by Juan Wang &amp; Weiliang Xing. All rights reserved. </p>
+		
+        <br>
+	</div>
+</div>
+</body>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+
+<script type="text/javascript" src="js/ddaccordion.js">
+
+
+</script>
+
+
+<script type="text/javascript">
+
+
+ddaccordion.init({
+	headerclass: "submenuheader", //Shared CSS class name of headers group
+	contentclass: "submenu", //Shared CSS class name of contents group
+	revealtype: "mouseover", //Reveal content when user clicks or onmouseover the header? Valid value: "click", "clickgo", or "mouseover"
+	mouseoverdelay: 500, //if revealtype="mouseover", set delay in milliseconds before header expands onMouseover
+	collapseprev: true, //Collapse previous content (so only one open at any time)? true/false 
+	defaultexpanded: [], //index of content(s) open by default [index1, index2, etc] [] denotes no content
+	onemustopen: false, //Specify whether at least one header should be open always (so never all headers closed)
+	animatedefault: false, //Should contents open by default be animated into view?
+	persiststate: true, //persist state of opened contents within browser session?
+	toggleclass: ["", ""], //Two CSS classes to be applied to the header when it's collapsed and expanded, respectively ["class1", "class2"]
+	togglehtml: ["suffix", "<img src='images/plus.gif' class='statusicon' />", "<img src='images/minus.gif' class='statusicon' />"], //Additional HTML added to the header when it's collapsed and expanded, respectively  ["position", "html1", "html2"] (see docs)
+	animatespeed: "fast", //speed of animation: integer in milliseconds (ie: 200), or keywords "fast", "normal", or "slow"
+	oninit:function(headers, expandedindices){ //custom code to run when headers have initalized
+		myiframe=window.frames["myiframe"]
+		if (expandedindices.length>0) //if there are 1 or more expanded headers
+			myiframe.location.replace(headers[expandedindices.pop()].getAttribute('href')) //Get "href" attribute of final expanded header to load into IFRAME
+	},
+	onopenclose:function(header, index, state, isuseractivated){ //custom code to run whenever a header is opened or closed
+		if (state=="block" && isuseractivated==true){ //if header is expanded and as the result of the user initiated action
+			myiframe.location.replace(header.getAttribute('href'))
+		}
+	}
+})
+
+
+</script>
+
+</html>

@@ -1,0 +1,275 @@
+@charset "utf-8";
+/* CSS Document */
+
+        
+        body {
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;v
+	color: #999;
+	background-color: #FFF;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	background-color:#CCCCCC;
+        }
+	
+	
+#container{
+	margin:auto;
+	padding:0;
+	width:1000px;
+	height:auto;
+	background-color:#FFF;
+}
+#header{ height:100px}
+.menu4
+{
+	height:59px;
+	font-size:18px;
+	line-height:18px;
+	margin-bottom:20px;
+	margin-left:240px;text-shadow: 0 -1px 0 #06F;
+	
+}
+
+.menu4 a:active
+{
+	background-position:left top;
+	width:112px;
+	height:38px;
+	padding:13px 0px 0px 0px;
+	margin:0px;
+}
+		.menu4SD
+{
+	height:59px;
+	font-size:18px;
+	line-height:18px;
+	margin-bottom:20px;
+}
+.menu4 a:link,.menu4 a:visited
+{
+	color:#fff;
+	height:31px;
+	text-decoration:none;
+	background: url(../image/bg4_btn.png)
+	 no-repeat left -102px;
+	background-color:#99ccff;
+	padding:12px 14px 0px 14px;
+	margin-top:8px;
+	text-align:center;
+}
+.menu4 a:hover
+{
+	color:#592aaf;
+	background:url(../image/bg4_btn.png) no-repeat left -51px;
+	width:102px;
+	height:51px;
+	padding:20px 10px 0px 0px;
+	text-shadow: 0 -1px 0 #d1f9fc;
+}
+#menu{margin-right:0px; width:750px}
+
+#left{
+	float:left;
+	width:200px;
+	height: 400px;
+	background-color: #4ecdc4;
+	margin-left: 10px;
+	background-color: #624A80;
+	text-shadow: 0 -1px 0 black;
+}
+#right{
+	width:700px;
+	margin-left:240px;
+	color: #069;
+	font: Helvetica,Arial,sans-serif;
+	font-size: 13px;
+	background-image: url(../image/icon4.png);
+	background-repeat: no-repeat;
+	text-align:justify;
+}
+.glossymenu{
+	margin: 5px 0;
+	padding: 0;
+	width: 170px;
+	border-bottom-width: 0;
+	float:left;
+	width:200px;
+	height: 400px;
+	background-color: #4ecdc4;
+	margin-left: 10px;
+	background-color: #FFFFCC;
+}
+.glossymenu a{width:190px; }
+.glossymenu a.menuitem{
+	background: black url(../images/glossyback.jpg) repeat-x bottom left;
+	font: 12px "Lucida Grande", "Trebuchet MS", Verdana, Helvetica, sans-serif;
+	color: #333;
+	display: block;
+	position: relative; /*To help in the anchoring of the ".statusicon" icon image*/
+	width: 190px;
+	padding: 4px 0;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+
+
+.glossymenu a.menuitem:visited, .glossymenu .menuitem:active{
+color: #666;
+}
+
+.glossymenu a.menuitem .statusicon{ /*CSS for icon image that gets dynamically added to headers*/
+position: absolute;
+top: 5px;
+right: 5px;
+border: none;
+}
+
+.glossymenu a.menuitem:hover{
+background-image: url(../images/glossyback2.jpg);
+color:#FFFFFF
+}
+
+.glossymenu div.submenu{ /*DIV that contains each sub menu*/
+background: #666;
+}
+
+.glossymenu div.submenu ul{ /*UL of each sub menu*/
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+
+.glossymenu div.submenu ul li{
+border-bottom: 1px solid blue;
+}
+
+.glossymenu div.submenu ul li a{
+display: block;
+font: normal 12px "Lucida Grande", "Trebuchet MS", Verdana, Helvetica, sans-serif;
+color: #333;
+text-decoration: none;
+padding: 2px 0;
+padding-left: 10px;
+}
+
+.glossymenu div.submenu ul li a:hover{
+background-image: url(../images/glossyback2.jpg);
+color: white;
+}
+.class{width:500px;}
+#wellpro{
+	margin-left:40px;
+}
+#title{
+	margin-left:45px;
+	font-size:15px;
+	height: 45px;
+}
+#title strong{
+	color:#99173C;
+}
+	
+.homeicon{
+	float:right;
+	width:100px;
+	height:20px;
+	color:#014E85;
+	font-size:12px;
+	margin-right:5px;
+}
+.homeicon a {color:#014E85;}
+#maincontent{
+	width:640px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	height:auto;
+}
+
+#brief{
+	width:700px;
+	padding:0;
+	margin:0 auto;
+	color:#069;
+}
+#brief p{ text-align:justify; }
+#brief h3 a{color:#99173C;}
+#brief h3 {color:#99173C;}
+#flash{
+	margin-left:20px;
+	border:5px solid #999;
+	width:550px;
+	height:400px;
+}
+#img_s8{width:452px; float:right; height:370px;}
+
+#brief1{
+	background-image:
+	url(../image/applet1.jpg);
+	background-position:top right;
+	background-repeat:no-repeat;
+	width:740px;
+	height:260px;
+}
+#brief2{
+	background-image:
+	url(../image/weiliang2.jpg);
+	background-position:top right;
+	background-repeat:no-repeat;
+	width:720px;
+	height:280px;
+}
+#briefword{
+	width:270px;
+	height: 80px;
+	
+ }
+#first{
+	width:640px;
+	text-align:justify;
+	height: 190px;
+}
+#first p{ width:370px;}
+#second{
+	width:640;
+	height:210px;
+	margin-top:5px;
+	text-align:justify;
+}
+#second p{ width:420px;}
+#flash_main{width:500px; height:700px; float:left;}
+#flash_brief h3 {color:#99173C;}
+#right ul li a{line-height:30px;}
+.menu{background: black  url(../images/glossybackmenu.jpg) repeat-x bottom left;
+font: bold 14px "Lucida Grande", "Trebuchet MS", Verdana, Helvetica, sans-serif;
+color: #666;
+display: block;
+position: relative; /*To help in the anchoring of the ".statusicon" icon image*/
+width: 190px;
+padding: 4px 0;
+padding-left: 10px;
+text-decoration: none;
+text-shadow: 0 1px 0  #CCC;}
+.menuitem header a{
+background: black url(../images/glossyback.jpg) repeat-x bottom left;
+font:12px "Lucida Grande", "Trebuchet MS", Verdana, Helvetica, sans-serif;
+color: #666;
+display: block;
+position: relative; /*To help in the anchoring of the ".statusicon" icon image*/
+width: 190px;
+padding: 4px 0;
+padding-left: 10px;
+text-decoration: none;
+text-shadow: 0 1px 0 #009;}
+.menu_selected {background: url(../images/glossyback3.jpg)  repeat-x ;
+font: bold 14px "Lucida Grande", "Trebuchet MS", Verdana, Helvetica, sans-serif;
+color: white;
+display: block;
+position: relative; /*To help in the anchoring of the ".statusicon" icon image*/
+width: 190px;
+padding: 4px 0;
+padding-left: 10px;
+text-decoration: none;
+text-shadow: 0 1px 0 #009;}
+
